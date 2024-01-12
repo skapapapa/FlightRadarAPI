@@ -1,0 +1,139 @@
+{
+    "flight": {
+        "identification": {
+            "id": null,
+            "row": 5458160884,
+            "number": {
+                "default": "FR3103",
+                "alternative": null
+            },
+            "callsign": "RYR54KJ",
+            "codeshare": null
+        },
+        "status": {
+            "live": false,
+            "text": "Estimated dep 20:04",
+            "icon": "yellow",
+            "estimated": null,
+            "ambiguous": false,
+            "generic": {
+                "status": {
+                    "text": "estimated",
+                    "type": "departure",
+                    "color": "yellow",
+                    "diverted": null
+                },
+                "eventTime": {
+                    "utc": 1705086240,
+                    "local": 1705089840
+                }
+            }
+        },
+        "aircraft": {
+            "model": {
+                "code": "B738",
+                "text": "Boeing 737-8AS"
+            },
+            "registration": "EI-EFI",
+            "country": {
+                "id": 106,
+                "name": "Ireland",
+                "alpha2": "IE",
+                "alpha3": "IRL"
+            },
+            "hex": "4CA764",
+            "restricted": false,
+            "serialNo": null,
+            "age": {
+                "availability": true
+            },
+            "availability": {
+                "serialNo": true,
+                "age": true
+            }
+        },
+        "owner": {
+            "name": "Ryanair",
+            "code": {
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "logo": "https://images.flightradar24.com/assets/airlines/logotypes/FR_RYR.png"
+        },
+        "airline": {
+            "name": "Ryanair",
+            "code": {
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "short": "Ryanair"
+        },
+        "airport": {
+            "origin": {
+                "timezone": {
+                    "name": "Europe/Amsterdam",
+                    "offset": 3600,
+                    "abbr": "CET",
+                    "abbrName": "Central European Time",
+                    "isDst": false
+                },
+                "info": {
+                    "terminal": "3",
+                    "baggage": null,
+                    "gate": "H4"
+                }
+            },
+            "destination": {
+                "code": {
+                    "iata": "DUB",
+                    "icao": "EIDW"
+                },
+                "timezone": {
+                    "name": "Europe/Dublin",
+                    "offset": 0,
+                    "abbr": "GMT",
+                    "abbrName": "Greenwich Mean Time",
+                    "isDst": false
+                },
+                "info": {
+                    "terminal": "1",
+                    "baggage": "2",
+                    "gate": "103"
+                },
+                "name": "Dublin Airport",
+                "position": {
+                    "latitude": 53.421379,
+                    "longitude": -6.27,
+                    "country": {
+                        "name": "Ireland",
+                        "code": "IE",
+                        "id": 106
+                    },
+                    "region": {
+                        "city": "Dublin"
+                    }
+                },
+                "visible": true
+            },
+            "real": null
+        },
+        "time": {
+            "scheduled": {
+                "departure": 1705085100,
+                "arrival": 1705091100
+            },
+            "real": {
+                "departure": null,
+                "arrival": null
+            },
+            "estimated": {
+                "departure": 1705086240,
+                "arrival": null
+            },
+            "other": {
+                "eta": null,
+                "duration": null
+            }
+        }
+    }
+}

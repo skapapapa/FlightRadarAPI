@@ -1,0 +1,143 @@
+{
+    "flight": {
+        "identification": {
+            "id": "339987ff",
+            "row": 5458183851,
+            "number": {
+                "default": "KL1066",
+                "alternative": "WA1066"
+            },
+            "callsign": "KLC1066",
+            "codeshare": [
+                "EY7000",
+                "KQ1066",
+                "VS7182"
+            ]
+        },
+        "status": {
+            "live": false,
+            "text": "Delayed 20:05",
+            "icon": "yellow",
+            "estimated": null,
+            "ambiguous": false,
+            "generic": {
+                "status": {
+                    "text": "delayed",
+                    "type": "arrival",
+                    "color": "yellow",
+                    "diverted": null
+                },
+                "eventTime": {
+                    "utc": 1705086310,
+                    "local": 1705089910
+                }
+            }
+        },
+        "aircraft": {
+            "model": {
+                "code": "E190",
+                "text": "Embraer E190STD"
+            },
+            "registration": "PH-EZX",
+            "country": {
+                "id": 155,
+                "name": "Netherlands",
+                "alpha2": "NL",
+                "alpha3": "NLD"
+            },
+            "hex": "484F80",
+            "restricted": false,
+            "serialNo": null,
+            "age": {
+                "availability": true
+            },
+            "availability": {
+                "serialNo": true,
+                "age": true
+            }
+        },
+        "owner": {
+            "name": "KLM Cityhopper",
+            "code": {
+                "iata": "WA",
+                "icao": "KLC"
+            },
+            "logo": "https://images.flightradar24.com/assets/airlines/logotypes/WA_KLC.png"
+        },
+        "airline": {
+            "name": "KLM (SkyTeam Livery)",
+            "code": {
+                "iata": "KL",
+                "icao": "KLM"
+            },
+            "short": "KLM"
+        },
+        "airport": {
+            "origin": {
+                "code": {
+                    "iata": "CWL",
+                    "icao": "EGFF"
+                },
+                "timezone": {
+                    "name": "Europe/London",
+                    "offset": 0,
+                    "abbr": "GMT",
+                    "abbrName": "Greenwich Mean Time",
+                    "isDst": false
+                },
+                "info": {
+                    "terminal": null,
+                    "baggage": null,
+                    "gate": "10"
+                },
+                "name": "Cardiff Airport",
+                "position": {
+                    "latitude": 51.396469,
+                    "longitude": -3.33753,
+                    "country": {
+                        "name": "United Kingdom",
+                        "code": "GB",
+                        "id": 235
+                    },
+                    "region": {
+                        "city": "Cardiff"
+                    }
+                },
+                "visible": true
+            },
+            "destination": {
+                "timezone": {
+                    "name": "Europe/Amsterdam",
+                    "offset": 3600,
+                    "abbr": "CET",
+                    "abbrName": "Central European Time",
+                    "isDst": false
+                },
+                "info": {
+                    "terminal": "2",
+                    "baggage": "009",
+                    "gate": "D29"
+                }
+            },
+            "real": null
+        },
+        "time": {
+            "scheduled": {
+                "departure": 1705080300,
+                "arrival": 1705085100
+            },
+            "real": {
+                "departure": 1705082638,
+                "arrival": null
+            },
+            "estimated": {
+                "departure": null,
+                "arrival": 1705086310
+            },
+            "other": {
+                "eta": 1705086310,
+                "duration": null
+            }
+        }
+    }
+}
